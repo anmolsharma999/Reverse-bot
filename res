@@ -3,7 +3,7 @@ import socket, requests, ipaddress, threading, os, sys, time, re, subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "8771347188:AAG2e-Tvc0KykXz9qbyC_OoLeKGl7x3kI-I"
+BOT_TOKEN = ""
 # ---------------------
 
 def send_msg(chat_id, text):
